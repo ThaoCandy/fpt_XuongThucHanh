@@ -15,8 +15,8 @@ public class Connect {
 
     private final String user = "sa";
     private final String pass = "12345678";
-    private final String host = "ThaoToshiba\\THUHAOSQL";
-    private final String database = "master";
+    private final String host = "ThaoToshiba\\SQLEXPRESS";
+    private final String database = "Domain0";
     private final int port = 1433;
 
     public Connection conn;
@@ -45,8 +45,8 @@ public class Connect {
         }
     }
 
-//    public static void main(String[] args) {
-//        new Connect();
-//    }
+    public static void main(String[] args) {
+        new Connect();
+    }
     
 }
